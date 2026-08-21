@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night Mode Color Theme -->
+    <color name="primary">#970C28</color>
+    <color name="primary_light">#1B1316</color>
+    <color name="primary_dark">#FBE7EA</color>
+    <color name="white">#38292F</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
