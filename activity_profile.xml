@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_light">
+
+    <!-- Profile Settings Heading -->
+    <TextView
+        android:id="@+id/profileSettingsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/profile_settings_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/railway_font" />
+
+    <!-- Night Mode Toggle -->
+    <Switch
+        android:id="@+id/nightModeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/night_mode_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="16sp" />
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/update_name_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="@string/update_name_hint"
+        android:textColor="@color/primary_dark" />
+
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/profilePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/update_phone_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editProfilePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="@string/update_phone_hint"
+        android:textColor="@color/primary_dark" />
+
+    <!-- Goal Weight -->
+    <TextView
+        android:id="@+id/profileGoalWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/update_goal_weight_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editProfileGoalWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="@string/update_goal_weight_hint"
+        android:inputType="numberDecimal"
+        android:textColor="@color/primary_dark" />
+
+    <!-- Update Profile Button -->
+    <Button
+        android:id="@+id/updateProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/update_profile_button"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

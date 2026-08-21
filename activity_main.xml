@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:background="@color/primary_light">
+
+    <!-- Greeting -->
+    <TextView
+        android:id="@+id/helloUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/hello_user_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/railway_font" />
+
+    <!-- Enter Current Weight -->
+    <EditText
+        android:id="@+id/currentWeightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:hint="@string/todays_weight_hint"
+        android:inputType="numberDecimal"
+        android:textColor="@color/primary_dark" />
+
+    <!-- Enter Weight Button -->
+    <Button
+        android:id="@+id/enterWeightButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/enter_weight_button"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white" />
+
+    <!-- Space Between Weight Entry and Summary -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <!-- Current and Goal Weight -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal">
+
+        <!-- Current Weight -->
+        <TextView
+            android:id="@+id/currentWeightDisplay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/current_weight_display"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp" />
+
+        <!-- Goal Weight -->
+        <TextView
+            android:id="@+id/goalWeightDisplay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="@string/goal_weight_display"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Space -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Weight History -->
+    <include
+        layout="@layout/weight_history" />
+
+</LinearLayout>

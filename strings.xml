@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BALANCE</string>
+
+    <!-- Basics -->
+    <string name="create_account">Create New Account</string>
+    <string name="profile">Profile</string>
+    <string name="main_activity">Home</string>
+    <string name="logo_description">App Logo</string>
+    <string name="back_button_description">Back Button</string>
+    <string name="menu_button_description">Menu Button</string>
+
+    <!-- Login Screen -->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="create_account_button">Create New Account</string>
+
+    <!-- Create New Account -->
+    <string name="create_account_text">Create New Account</string>
+    <string name="username_text">Username:</string>
+    <string name="password_text">Password:</string>
+    <string name="name_text">Name:</string>
+    <string name="phone_text">Enter Phone Number:</string>
+    <string name="goal_weight_text">Enter Goal Weight: (lbs)</string>
+    <string name="current_weight_text">Enter Current Weight: (lbs)</string>
+    <string name="create_username_hint"> Create Username</string>
+    <string name="create_password_hint"> Create Password</string>
+    <string name="create_name_hint"> Enter Name</string>
+    <string name="create_phone_hint"> Enter Phone Number</string>
+    <string name="goal_weight_hint"> Enter Goal Weight</string>
+    <string name="current_weight_hint"> Enter Current Weight</string>
+    <string name="return_to_login_button"> Return To Log In</string>
+    <string name="finish_account_button">Create Account</string>
+
+
+    <!-- Activity Main -->
+    <string name="hello_user_text">Hello %1$s,</string>
+    <string name="todays_weight_hint">Enter today\'s weight</string>
+    <string name="enter_weight_button">Enter Weight</string>
+    <string name="current_weight_display">Current Weight: %1$s lbs</string>
+    <string name="goal_weight_display">Goal Weight: %1$s lbs</string>
+
+    <!-- Profile -->
+    <string name="profile_settings_text">Profile Settings</string>
+    <string name="night_mode_text">Night Mode</string>
+    <string name="update_name_text">Update Name:</string>
+    <string name="update_phone_text">Update Phone Number:</string>
+    <string name="update_goal_weight_text">Update Goal Weight (lbs):</string>
+    <string name="update_name_hint">Enter New Name</string>
+    <string name="update_phone_hint">Enter New Phone Number</string>
+    <string name="update_goal_weight_hint">Update Goal Weight</string>
+    <string name="update_profile_button">Update Profile</string>
+
+    <!-- Weight Grid -->
+    <string name="weight_history_text">Weight History</string>
+    <string name="date_header">Date</string>
+    <string name="weight_header">Weight (lbs)</string>
+    <string name="edit_header">Edit</string>
+    <string name="delete_header">Delete</string>
+
+    <!-- SMS Congratulations Message -->
+    <string name="goal_weight_reached_message">Congratulations, you\'ve reached your goal weight!</string>
+
+</resources>

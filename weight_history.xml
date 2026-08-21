@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weightHistoryGrid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:useDefaultMargins="true"
+    android:background="@color/white">
+
+    <!-- Weight History Header -->
+    <TextView
+        android:id="@+id/weightHistoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/weight_history_text"
+        android:textColor="@color/primary_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Column Headers -->
+    <TextView
+        android:id="@+id/dateHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/date_header"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weightHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/weight_header"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/edit_header"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deleteHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/delete_header"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold" />
+
+</GridLayout>
